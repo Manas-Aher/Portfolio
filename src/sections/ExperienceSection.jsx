@@ -95,7 +95,7 @@ const Experience = () => {
 
   return (
     <section
-      id="experience"
+      id="projects"
       className="flex-center section-padding xl:px-0 scroll-mt-10"
     >
       <div className="w-full h-full md:px-20 px-5">

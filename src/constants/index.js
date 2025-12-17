@@ -4,8 +4,8 @@ const navLinks = [
     link: "#work",
   },
   {
-    name: "Experience",
-    link: "#experience",
+    name: "Projects",
+    link: "#projects",
   },
   {
     name: "Skills",
