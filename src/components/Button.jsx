@@ -1,4 +1,4 @@
-const Button = ({ text, className, id, onClick }) => {
+const Button = ({ text, className, id, onClick, href }) => {
   const handleClick = (e) => {
     if (onClick) {
       onClick(e); // 🔁 Let parent handle it (e.g., resume download)
@@ -14,7 +14,7 @@ const Button = ({ text, className, id, onClick }) => {
   };
 
   return (
-    <a onClick={handleClick} className={`${className ?? ""} cta-wrapper`}>
+    <a onClick={handleClick} className={`${className ?? ""} cta-wrapper`} href={href}>
       <div className="cta-button group">
         <div className="bg-circle" />
         <p className="text">{text}</p>
