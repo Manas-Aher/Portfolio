@@ -4,6 +4,7 @@ import HeroExperience from "../components/HeroModels/HeroExperience"
 import { words } from "../constants"
 import { useGSAP } from "@gsap/react"
 import { gsap } from "gsap"
+import { navLinks } from '../constants'
 
 const Hero = () => {
 
@@ -53,7 +54,7 @@ const Hero = () => {
                         className="md:w-80 md:h-16 w-60 h-12"
                         id="button"
                         text="See my Work"
-                        href='#projects'
+                        href={navLinks[1].link}
                     />
                 </div>
             </header>
