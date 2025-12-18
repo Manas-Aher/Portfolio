@@ -175,20 +175,20 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
+    description: "QuickShop is a modern e-commerce web application designed to deliver seamless online shopping experience. The platform focuses on clean UI, smooth navigation, and responsive layouts.",
+    imgPath: "/images/quickshop-view.png",
+    logoPath: "/images/quickshop-logo.jpg",
+    title: "Quickshop",
     githubUrl: "https://github.com/Manas-Aher/iLanding",
-    liveDemoUrl: "https://ilanding-manas.netlify.app/",
     keypoints: [
-      'Understanding React component structure and JSX',
-      'Working with props and basic state management',
-      'Building reusable UI components',
-      'Styling responsive layouts using Bootstrap',
-      'Developing projects with guidance and best practices',
+      'Built a full-stack e-commerce website using HTML, CSS, PHP, and MySQL.',
+      'Implemented server-side logic in PHP for product management and user interactions.',
+      'Designed and managed relational databases using MySQL with XAMPP.',
+      'Styling responsive layouts using Bootstrap.',
+      'Gained hands-on experience with local server setup and deployment using XAMPP.',
+      'Developing projects with guidance and best practices.',
     ],
-    buildWith: ['NextJS', 'Tailwind CSS', 'Framer Motion'],
+    buildWith: ['HTML', 'CSS', 'PHP', 'MySQL', 'Bootstrap', 'XAMPP'],
   },
   {
     description: "iLanding is a learning project created during my React classes, where I explored core concepts like components, props, and state with guidance from my teacher.",
@@ -198,11 +198,11 @@ const expCards = [
     githubUrl: "https://github.com/Manas-Aher/iLanding",
     liveDemoUrl: "https://ilanding-manas.netlify.app/",
     keypoints: [
-      'Understanding React component structure and JSX',
-      'Working with props and basic state management',
-      'Building reusable UI components',
-      'Styling responsive layouts using Bootstrap',
-      'Developing projects with guidance and best practices',
+      'Understanding React component structure and JSX.',
+      'Working with props and basic state management.',
+      'Building reusable UI components.',
+      'Styling responsive layouts using Bootstrap.',
+      'Developing projects with guidance and best practices.',
     ],
     buildWith: ['React', 'Bootstrap', 'Formik', 'AXIOS'],
   },
@@ -214,11 +214,11 @@ const expCards = [
     githubUrl: "https://github.com/Manas-Aher/NextGen-Arena",
     liveDemoUrl: "https://nextgen-arena.netlify.app/",
     keypoints: [
-      'Gained hands-on experience with Next.js page routing and SSR concepts',
-      'Built responsive layouts and components using Tailwind CSS',
-      'Integrated smooth scroll animations using GSAP and ScrollTrigger',
-      'Learned to manage project structure and component composition effectively',
-      'Used utility libraries like clsx for conditional styling'
+      'Gained hands-on experience with Next.js page routing and SSR concepts.',
+      'Built responsive layouts and components using Tailwind CSS.',
+      'Integrated smooth scroll animations using GSAP and ScrollTrigger.',
+      'Learned to manage project structure and component composition effectively.',
+      'Used utility libraries like clsx for conditional styling.'
     ],
     buildWith: ['NextJS', 'Tailwind CSS', 'GSAP', 'ScrollTrigger', 'clsx'],
   },
@@ -230,11 +230,11 @@ const expCards = [
     githubUrl: "https://github.com/Manas-Aher/Valorant",
     liveDemoUrl: "https://valorant-manas.netlify.app/",
     keypoints: [
-      'Gained hands-on experience with Next.js page routing and SSR concepts',
-      'Built responsive layouts and components using Tailwind CSS',
-      'Integrated smooth scroll animations using GSAP and ScrollTrigger',
-      'Learned to manage project structure and component composition effectively',
-      'Used utility libraries like clsx for conditional styling'
+      'Gained hands-on experience with Next.js page routing and SSR concepts.',
+      'Built responsive layouts and components using Tailwind CSS.',
+      'Integrated smooth scroll animations using GSAP and ScrollTrigger.',
+      'Learned to manage project structure and component composition effectively.',
+      'Used utility libraries like clsx for conditional styling.'
     ],
     buildWith: ['NextJS', 'Tailwind CSS', 'GSAP', 'ScrollTrigger', 'clsx'],
   },
@@ -246,11 +246,11 @@ const expCards = [
     githubUrl: "https://github.com/Manas-Aher/suburbia",
     liveDemoUrl: "https://suburbia-manas.netlify.app/",
     keypoints: [
-      'Built fully responsive layouts and reusable components using Tailwind CSS',
-      'Implemented interactive UI elements including a skateboard customizer',
-      'Added smooth animations and transitions to enhance user engagement',
-      'Enhanced user experience with smooth hover effects and micro-interactions',
-      'Focused on clean visual hierarchy and intuitive navigation for better UX '
+      'Built fully responsive layouts and reusable components using Tailwind CSS.',
+      'Implemented interactive UI elements including a skateboard customizer.',
+      'Added smooth animations and transitions to enhance user engagement.',
+      'Enhanced user experience with smooth hover effects and micro-interactions.',
+      'Focused on clean visual hierarchy and intuitive navigation for better UX. '
     ],
     buildWith: ['NextJS', 'Tailwind', 'R3F', 'GSAP', 'Prismic', 'R3D', 'ThreeJS'],
   },
@@ -262,11 +262,11 @@ const expCards = [
     githubUrl: "https://github.com/Manas-Aher/fizzi-manas",
     liveDemoUrl: "https://fizzi-manas.netlify.app/",
     keypoints: [
-      'Built responsive, brand-focused layouts with Tailwind CSS and NextJS',
-      'Created interactive scroll-triggered animations using GSAP for product highlights',
-      'Added smooth animations and transitions to enhance user engagement',
-      'Implemented motion transitions with Framer Motion for dynamic UI feedback',
-      'Focused on clean visual hierarchy and intuitive navigation for better UX '
+      'Built responsive, brand-focused layouts with Tailwind CSS and NextJS.',
+      'Created interactive scroll-triggered animations using GSAP for product highlights.',
+      'Added smooth animations and transitions to enhance user engagement.',
+      'Implemented motion transitions with Framer Motion for dynamic UI feedback.',
+      'Focused on clean visual hierarchy and intuitive navigation for better UX. '
     ],
     buildWith: ['NextJS', 'Framer-Motion', 'R3F', 'GSAP', 'Prismic', 'R3D', 'ThreeJS'],
   },
@@ -284,51 +284,6 @@ const expLogos = [
   {
     name: "logo3",
     imgPath: "/images/logo3.png",
-  },
-];
-
-const testimonials = [
-  {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
-  },
-  {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
   },
 ];
 
@@ -359,7 +314,6 @@ export {
   counterItems,
   expCards,
   expLogos,
-  testimonials,
   socialImgs,
   techStackIcons,
   techStackImgs,

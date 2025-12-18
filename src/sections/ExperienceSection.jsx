@@ -123,7 +123,7 @@ const Experience = () => {
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                       <div className="timeline-logo flex items-center justify-center"> 
-                        <img src={card.logoPath} alt="logo" width={50} height={50} />
+                        <img src={card.logoPath} alt="logo" width={50} height={50} className="rounded-full" />
                       </div>
                       <div>
                         <h1 className="font-semibold text-5xl">{card.title}</h1>
@@ -132,7 +132,8 @@ const Experience = () => {
                         </p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5">
                           <li>
-                            <a
+                            {card.githubUrl ? (
+                                                          <a
                               href={card.githubUrl}
                               target="_blank"
                               rel="noopener noreferrer"
@@ -154,10 +155,11 @@ const Experience = () => {
                               <span className="text-sm transition-transform duration-200 group-hover:translate-x-0.5">
                                 ↗
                               </span>
-                            </a>
+                            </a>) : <span className="text-[15px] text-white-50">Repository not available</span>}
                           </li>
                           <li>
-                            <a
+                            {card.liveDemoUrl ? (
+                              <a
                               href={card.liveDemoUrl}
                               target="_blank"
                               rel="noopener noreferrer"
@@ -179,7 +181,7 @@ const Experience = () => {
                               <span className="text-sm transition-transform duration-200 group-hover:translate-x-0.5">
                                 ↗
                               </span>
-                            </a>
+                            </a>) : <span className="text-[15px] text-white-50">Live site not available</span>}
                           </li>
                         </ul>
                         <h3 className="text-xl font-semibold text-white mt-8">
