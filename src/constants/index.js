@@ -180,6 +180,7 @@ const expCards = [
     logoPath: "/images/quickshop-logo.jpg",
     title: "Quickshop",
     githubUrl: "https://github.com/Manas-Aher/iLanding",
+    liveDemoUrl: "https://manas-aher.great-site.net/index.php",
     keypoints: [
       'Built a full-stack e-commerce website using HTML, CSS, PHP, and MySQL.',
       'Implemented server-side logic in PHP for product management and user interactions.',
