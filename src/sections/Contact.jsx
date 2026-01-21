@@ -6,6 +6,7 @@ import ContactExperiences from "../components/ContactExperiences";
 
 const Contact = () => {
   const formRef = useRef(null);
+  const [emailPopup, setemailPopup] = useState(false);
   const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     name: "",
@@ -38,6 +39,8 @@ const Contact = () => {
         formRef.current,
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       );
+      setemailPopup(true);
+      setTimeout(()=> setemailPopup(false), 4000);
       console.log("Email sent successfully.");
 
       // Reset form and stop loading
@@ -115,8 +118,26 @@ const Contact = () => {
                     </div>
                   </div>
                 </button>
+                {error && <p className="text-red-500 mt-2">{error}</p>}
+                {emailPopup && (
+                  <div className="fixed top-6 left-1/2 -translate-x-1/2 z-[150]">
+                    <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-black/70 px-6 py-4 shadow-xl backdrop-blur-md">
+                      <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#cd7c2e]/20">
+                        <span className="text-[#cd7c2e] text-lg">✓</span>
+                      </div>
+
+                      <div>
+                        <p className="text-white font-semibold">
+                          Message sent successfully
+                        </p>
+                        <p className="text-white/60 text-sm">
+                          I’ll get back to you soon
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </form>
-              {error && <p className="text-red-500 mt-2">{error}</p>}
             </div>
           </div>
           <div className="xl:col-span-7 min-h-96">
