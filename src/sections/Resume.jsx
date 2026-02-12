@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Button from '../components/Button'
 
 const Resume = () => {
-  const resumeUrl = '/Manas_Aher_resume.pdf'
+  const resumeUrl = '/Manas Harshal Aher - Resume.pdf'
   const [isDownloading, setIsDownloading] = useState(false)
   const [showSuccess, setShowSuccess] = useState(false)
 
@@ -11,7 +11,7 @@ const Resume = () => {
 
     const link = document.createElement('a')
     link.href = resumeUrl
-    link.download = 'Manas_Aher_resume.pdf'
+    link.download = 'Manas Harshal Aher - Resume.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)

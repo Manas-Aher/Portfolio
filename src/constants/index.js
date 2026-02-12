@@ -224,7 +224,7 @@ const expCards = [
     buildWith: ['NextJS', 'Tailwind CSS', 'GSAP', 'ScrollTrigger', 'clsx'],
   },
   {
-    description: "A Valorant-inspired gaming website built with bold visuals, responsive layouts, and smooth interactions to deliver an immersive fan experience. This Website is same as NextGen Arena.",
+    description: "A Valorant-inspired gaming website built with bold visuals, responsive layouts, and smooth interactions to deliver an immersive fan experience. Developed Website is identical to NextGen Arena.",
     imgPath: "/images/valorant-view.png",
     logoPath: "/images/valorant.png",
     title: "Valorant Gaming",
