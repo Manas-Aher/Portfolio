@@ -8,7 +8,7 @@ const Resume = () => {
 
   const handleDownload = () => {
     setIsDownloading(true)
-
+ 
     const link = document.createElement('a')
     link.href = resumeUrl
     link.download = 'Manas Harshal Aher - Resume.pdf'
