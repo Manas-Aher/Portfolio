@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manas-aher-portfolio.netlify.app/sitemap.xml
